@@ -14,6 +14,12 @@ import java.awt.Component;
       und als Zwischenkommentar die grauen verwenden 
            mit Slash und einem Stern (Mehrzeilig)
            mit zwei Slash und ohne Sterne (Einzeilig)
+           
+           
+      Povisorische Besetzung:
+          Paula:    model
+          Mathias:  view
+          Dennis:   controller
  */
 
 public class OBERFLAECHE extends JFrame
