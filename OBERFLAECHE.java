@@ -15,6 +15,7 @@ public class OBERFLAECHE extends JFrame
     private JPanel Bestellungsbild;
     private JPanel Rechnungsbild;
     
+    //JFrame zur Anmeldung am Anfang
     private JLabel l_anmeldung;
     private JLabel l_benutzername;
     private JLabel l_passwort;
@@ -25,11 +26,20 @@ public class OBERFLAECHE extends JFrame
     private JButton b_beenden;
     private JButton b_anmelden;
     
+    //JFrame zur Bestellungsauswahl für BEIDE Altersgruppen; es wird beim Ausführen mit setVisible gearbeitet
     private JLabel l_bestellung;
     private JLabel l_anzahl;
     private JLabel l_konzertnummer;
     private JTable t;
-    private JTextField tf_anzahl;
+    private JComboBox cb_anzahl;
+    private JComboBox cb_konzertnummer;
+    private JButton b_zurück;
+    private JButton b_auswahlbestätigen;
+    
+    //JFrame für Rechnung am Ende
+    private JLabel l_rechnung;
+    private JLabel l_gesamtpreis;
+    private JButton b_pdf;
     public OBERFLAECHE()
     {
    
