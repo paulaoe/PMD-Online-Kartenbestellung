@@ -7,7 +7,10 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.Component;
 
-/**    Bitte als Oberkommentare die blauen verwenden mit Slash und zwei Sternen
+/**   BITTE ALS VORLAGE BZW. TIPS DAS PROJEKT MIT DER SCHLANGE UND EDEM PILZ BENUTZEN (SIEHE PROJEKT IN GITHUB BEI ACCOUNT DENNIS)
+      ALTERNATIV CATERINGPROJEKT BEI GITHUB PAULA
+
+      Bitte als Oberkommentare die blauen verwenden mit Slash und zwei Sternen
       und als Zwischenkommentar die grauen verwenden 
            mit Slash und einem Stern (Mehrzeilig)
            mit zwei Slash und ohne Sterne (Einzeilig)
