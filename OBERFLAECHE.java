@@ -2,9 +2,18 @@
 /**
  * Beschreiben Sie hier die Klasse HALLO.
  * 
- * @author (Ihr Name) 
+ * @author (PMD) 
  * @version (eine Versionsnummer oder ein Datum)
  */
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.Font;
+import javax.swing.JOptionPane;               
+import javax.swing.table.DefaultTableCellRenderer;
+import java.awt.Component;
+
 public class OBERFLAECHE
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
