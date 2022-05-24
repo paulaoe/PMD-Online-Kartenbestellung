@@ -7,6 +7,12 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableCellRenderer;
 import java.awt.Component;
 
+/**    Bitte als Oberkommentare die blauen verwenden mit Slash und zwei Sternen
+      und als Zwischenkommentar die grauen verwenden 
+           mit Slash und einem Stern (Mehrzeilig)
+           mit zwei Slash und ohne Sterne (Einzeilig)
+ */
+
 public class OBERFLAECHE extends JFrame
 
 {
@@ -15,7 +21,7 @@ public class OBERFLAECHE extends JFrame
     private JPanel Bestellungsbild;
     private JPanel Rechnungsbild;
     
-    //JFrame zur Anmeldung am Anfang
+    /**JFrame zur Anmeldung am Anfang*/
     private JLabel l_anmeldung;
     private JLabel l_benutzername;
     private JLabel l_passwort;
@@ -26,7 +32,7 @@ public class OBERFLAECHE extends JFrame
     private JButton b_beenden;
     private JButton b_anmelden;
     
-    //JFrame zur Bestellungsauswahl für BEIDE Altersgruppen; es wird beim Ausführen mit setVisible gearbeitet
+    /**JFrame zur Bestellungsauswahl für BEIDE Altersgruppen; es wird beim Ausführen mit setVisible gearbeitet*/
     private JLabel l_bestellung;
     private JLabel l_anzahl;
     private JLabel l_konzertnummer;
@@ -36,10 +42,16 @@ public class OBERFLAECHE extends JFrame
     private JButton b_zurück;
     private JButton b_auswahlbestätigen;
     
-    //JFrame für Rechnung am Ende
+    /**JFrame für Rechnung am Ende*/
     private JLabel l_rechnung;
     private JLabel l_gesamtpreis;
+    /*   Drei Felder zur Zusammenfassenden Info fehlen noch
+         konzertnr
+         anzahl
+         gesamtpreis
+    */
     private JButton b_pdf;
+    
     public OBERFLAECHE()
     {
    
