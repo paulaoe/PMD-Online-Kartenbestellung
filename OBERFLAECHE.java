@@ -46,7 +46,7 @@ public class OBERFLAECHE extends JFrame
     private JLabel l_rechnung;
     private JLabel l_gesamtpreis;
     /*   Drei Felder zur Zusammenfassenden Info fehlen noch
-         konzertnr
+         konzertnr.
          anzahl
          gesamtpreis
     */
@@ -55,7 +55,22 @@ public class OBERFLAECHE extends JFrame
     public OBERFLAECHE()
     {
    
-        
+        super.setLayout(null);
+        super.setSize(973, 1047);
+        super.setVisible(true);
     }
+    
+    public void FensterAufbauenV1() {
 
+        
+        
+
+    }
+    
+    public void FensterAufbauenV2() {
+
+        
+        
+
+    }
 }
