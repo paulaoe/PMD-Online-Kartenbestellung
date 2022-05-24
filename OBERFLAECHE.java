@@ -73,4 +73,11 @@ public class OBERFLAECHE extends JFrame
         
 
     }
+    
+    public void FensterAufbauenV3() {
+        
+        
+        
+        
+    }
 }
