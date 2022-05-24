@@ -1,11 +1,12 @@
 
+
 /**
  * Beschreiben Sie hier die Klasse HALLO.
  * 
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class OBERFLAECHE
+public class OBERFLAECHE extends JFrame
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private int x;
